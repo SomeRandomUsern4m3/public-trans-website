@@ -1,7 +1,12 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Poetsen+One&family=Signika:wght@300..700&display=swap');
 *, html {
     margin: 0;
     padding: 0;
+}
+html {
+    background-color: #EFF9F0;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -27,4 +32,63 @@
     font-variation-settings: "GRAD" 0;
     font-size: 24px;
     text-align: center;
+}
+
+.index-hero {
+    background-color: #F29559;
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+
+#hero-txt {
+    font-size: 128px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    width: 862px;
+    word-wrap: normal;
+    margin-left: 50vw;
+    transform: translateX(-50%);
+}
+
+#hero-button {
+    width: 320px;
+    height: 80px;
+    border-radius: 15px;
+    background-color: #EFF9F0;
+    font-family: "Signika", sans-serif;
+    font-size: 47px;
+    border: #707070 1px solid;
+    margin-left: 50vw;
+    transform: translateX(-50%);
+}
+
+.index-questioning {
+    margin-top: 50px;
+}
+
+#index-question-text {
+    text-align: center;
+    font-size: 80px;
+    font-family: "Poetsen One", sans-serif;
+}
+
+#index-question-tooltip {
+    text-align: center;
+    font-family: "Signika", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.role-choices-div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+    margin-left: 50vw;
+    transform: translateX(-50%);
 }
