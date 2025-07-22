@@ -101,3 +101,7 @@ html {
     font-weight: bold;
     font-size: 40px;
 }
+
+.role-choices img {
+    border-radius: 10px;
+}
